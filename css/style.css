@@ -430,6 +430,10 @@ h1 a{
 		text-align: left;
 	}
 	
+	#items ul li a:hover{
+		color: #cbcbcb;
+	}
+	
 	#items ul li ul, #items ul li ul ul{
 		display: block !important;
 		background: transparent !important;
