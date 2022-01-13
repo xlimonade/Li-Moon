@@ -134,6 +134,10 @@ h1{
 	line-height: 1.1;
 }
 
+h1 a{
+	color: #22c7cd;
+}
+
 #content{
 	width: 1250px;
 	margin: 0 auto;
