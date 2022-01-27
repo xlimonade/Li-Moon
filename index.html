@@ -60,21 +60,23 @@
 			</div>
 		</div>
 		<div id="info" style="opacity:0">
-			<div id="webleft">
-				<a class="icon" target="_blank" title="OnlyFans.com" href="https://onlyfans.com/xlimonade"><img src="img/onlyfans.svg"></a>
-				<a class="icon" target="_blank" title="Watch4Beauty.com" href="https://www.watch4beauty.com/models/li-moon"><img src="img/w4b.svg"></a>
-				<a class="icon" target="_blank" title="MetArt.com" href="https://www.metart.com/model/li-moon"><img src="img/metart.png"></a>
-				<a class="icon" target="_blank" title="EternalDesire.com" href="https://www.eternaldesire.com/model/li-moon"><img src="img/eternaldesire.png"></a>
-				<a class="icon" target="_blank" title="Femjoy.com" href="https://femjoy.com/models/limoon"><img src="img/femjoy-limoon.png"></a>
-				<a class="icon" target="_blank" title="WowGirls.com" href="https://venus.wowgirls.com/girl/gbd9d4af/lee-moon"><img src="img/wowgirls.png"></a>
-			</div>
-			<div id="webright">
-				<a class="icon" target="_blank" title="BentBox.co" href="https://bentbox.co/lemonchello"><img src="img/bentbox.png"></a>
-				<a class="icon" target="_blank" title="iStripper.com" href="https://www.istripper.com/models/Li-Moon"><img src="img/istripper.svg"></a>
-				<a class="icon" target="_blank" title="SexArt.com" href="https://www.sexart.com/model/li-moon"><img src="img/sexart.png"></a>
-				<a class="icon" target="_blank" title="Errotica-Archives.com" href="https://www.errotica-archives.com/model/li-moon"><img src="img/errotica-archives.png"></a>
-				<a class="icon" target="_blank" title="Femjoy.com" href="https://femjoy.com/models/annikaa"><img src="img/femjoy-annika.png"></a>
-				<a class="icon" target="_blank" title="MPLStudios.com" href="https://www.mplstudios.com/portfolio/382-Kiki/"><img src="img/mplstudios.png"></a>
+			<div id="webicons" style="display:none">
+				<div id="webleft">
+					<a class="icon" target="_blank" title="OnlyFans.com" href="https://onlyfans.com/xlimonade"><img src="img/onlyfans.svg"></a>
+					<a class="icon" target="_blank" title="Watch4Beauty.com" href="https://www.watch4beauty.com/models/li-moon"><img src="img/w4b.svg"></a>
+					<a class="icon" target="_blank" title="MetArt.com" href="https://www.metart.com/model/li-moon"><img src="img/metart.png"></a>
+					<a class="icon" target="_blank" title="EternalDesire.com" href="https://www.eternaldesire.com/model/li-moon"><img src="img/eternaldesire.png"></a>
+					<a class="icon" target="_blank" title="Femjoy.com" href="https://femjoy.com/models/limoon"><img src="img/femjoy-limoon.png"></a>
+					<a class="icon" target="_blank" title="WowGirls.com" href="https://venus.wowgirls.com/girl/gbd9d4af/lee-moon"><img src="img/wowgirls.png"></a>
+				</div>
+				<div id="webright">
+					<a class="icon" target="_blank" title="BentBox.co" href="https://bentbox.co/lemonchello"><img src="img/bentbox.png"></a>
+					<a class="icon" target="_blank" title="iStripper.com" href="https://www.istripper.com/models/Li-Moon"><img src="img/istripper.svg"></a>
+					<a class="icon" target="_blank" title="SexArt.com" href="https://www.sexart.com/model/li-moon"><img src="img/sexart.png"></a>
+					<a class="icon" target="_blank" title="Errotica-Archives.com" href="https://www.errotica-archives.com/model/li-moon"><img src="img/errotica-archives.png"></a>
+					<a class="icon" target="_blank" title="Femjoy.com" href="https://femjoy.com/models/annikaa"><img src="img/femjoy-annika.png"></a>
+					<a class="icon" target="_blank" title="MPLStudios.com" href="https://www.mplstudios.com/portfolio/382-Kiki/"><img src="img/mplstudios.png"></a>
+				</div>
 			</div>
 			<div id="bio">
 				<p><span>Real Name:</span> Anna Sokolova</p>
@@ -93,7 +95,7 @@
 				<p><span>Years Active:</span> 2015 - present</p>
 			</div>
 		</div>
-		<script>var t=document.getElementById('infobtn');t.onclick = function() {var i=document.getElementById('info');i.style.opacity==='0'?(i.style.opacity='1',t.className='show'):(i.style.opacity='0',t.className='');}</script>
+		<script>var t=document.getElementById('infobtn');t.onclick = function() {var i=document.getElementById('info');var w=document.getElementById('webicons');i.style.opacity==='0'?(i.style.opacity='1',t.className='show',w.style.display='block'):(i.style.opacity='0',t.className='',setTimeout(()=>{w.style.display='none'},750));}</script>
 	</div>
 </body>
 </html>

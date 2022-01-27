@@ -548,8 +548,12 @@ h1 a{
 	}
 	
 	#info{
-		opacity: 100 !important;
+		opacity: 1 !important;
 		margin-top: 5px;
 		width: 100%;
+	}
+	
+	#webicons{
+		display: block !important;
 	}
 }
