@@ -119,7 +119,13 @@ ul li a:hover,
 #items ul li a:hover,
 #icons a:hover{
 	color: #22c7cd;
+	font-weight: 800;
 	outline-width: 0;
+}
+
+#items ul li a:hover .itemleft,
+#items ul li a:hover .itemright{
+	font-size: 18px;
 }
 
 a:focus {	
@@ -221,6 +227,18 @@ h1 a{
 	color: #cbcbcb;
 }
 
+.itemleft{
+	float: left;
+	margin: 5px;
+	font-size: 16px;
+}
+
+.itemright{
+	float: right;
+	margin: 5px;
+	font-size: 16px;
+}
+
 #items ul li ul li{
 	display: block;
 	position: relative;
@@ -233,7 +251,6 @@ h1 a{
 	display: block;
 	position: relative;
 	top: 1px;
-	text-align: left;
 	padding: 9.7px 20px;
 }
 
@@ -250,7 +267,6 @@ h1 a{
 	position: absolute;
 	left: 250px;
 	top: 0;
-	text-align: left;
 }
 
 #items ul li:hover ul li ul{
@@ -465,18 +481,17 @@ h1 a{
 	#items ul li{
 		display: block;
 		float: none;
-		text-align: left;
 		border-right: none;
 	}
 	
 	#items ul li a{
 		padding: 5px 10px !important;
 		display: block;
-		text-align: left;
 	}
 	
 	#items ul li a:hover{
 		color: #cbcbcb;
+		font-weight: normal;
 	}
 	
 	#items ul li ul, #items ul li ul ul{
