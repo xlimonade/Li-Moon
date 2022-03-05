@@ -467,6 +467,10 @@ h1 a{
 }
 
 @media screen and (max-width: 750px){
+	body{
+		background-position: left top;
+	}
+	
 	#items{
 		float: none;
 		margin: 0;
