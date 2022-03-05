@@ -116,8 +116,7 @@ a{
 
 a:active, a:hover,
 ul li a:hover,
-#items ul li a:hover,
-#icons a:hover{
+#items ul li a:hover{
 	color: #22c7cd;
 	font-weight: 800;
 	outline-width: 0;
@@ -189,6 +188,12 @@ h1 a{
 	-o-transition: 0.6s;
 	font-size: 16px;
 	color: #d9d9d9;
+}
+
+#icons a:hover{
+	color: #22c7cd;
+	font-size: 20px;
+	outline-width: 0;
 }
 
 #icons br{
@@ -491,7 +496,21 @@ h1 a{
 	
 	#items ul li a:hover{
 		color: #cbcbcb;
-		font-weight: normal;
+		font-weight: 400;
+	}
+	
+	#items ul li a:hover .itemleft,
+	#items ul li a:hover .itemright{
+		font-size: 16px;
+	}
+	
+	#icons a:hover{
+		color: #d9d9d9;
+		font-size: 16px;
+	}
+	
+	.icon:hover{
+		opacity: 1;
 	}
 	
 	#items ul li ul, #items ul li ul ul{
@@ -517,11 +536,6 @@ h1 a{
 	}
 	
 	#items ul li:hover > ul{
-		background: none !important;
-	}
-	
-	#items ul li:hover > ul{
-		background: transparent !important;
 		width: auto !important;
 		display: block;
 		position: relative !important;
@@ -533,7 +547,6 @@ h1 a{
 	#items ul li:hover ul li ul,
 	#items ul li:hover ul li:hover > ul,
 	#items ul li:hover ul li:hover > ul li ul{
-		background: transparent !important;
 		display: block;
 		position: relative !important; 
 		right: 0;
